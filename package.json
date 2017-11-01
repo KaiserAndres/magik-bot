@@ -1,0 +1,27 @@
+{
+  "name": "magik-bot",
+  "version": "0.1.0",
+  "description": "A MTG bot.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiserAndres/magik-bot.git"
+  },
+  "keywords": [
+    "MTG",
+    "bot"
+  ],
+  "author": "KaiserA",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KaiserAndres/magik-bot/issues"
+  },
+  "homepage": "https://github.com/KaiserAndres/magik-bot#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "typescript": "^2.6.1"
+  }
+}
