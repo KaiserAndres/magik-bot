@@ -8,7 +8,7 @@
 export class RandomService {
   private seed: number;
 
-  constructor(seed) { this.seed = seed; }
+  constructor(seed: number) { this.seed = seed; }
 
   private next(min: number, max: number): number {
     min = min || 0;

@@ -4,7 +4,7 @@ import { Land } from '../engine/card-types/land';
 import { Mana } from '../engine/mana';
 import { Cost } from '../engine/cost';
 
-export mock_cards: Card[] = [
+var mock_cards: Card[] = [
   new Land('Island', '', '', Mana.Blue, 1),
   new Land('Island', '', '', Mana.Blue, 1),
   new Land('Island', '', '', Mana.Blue, 1),
@@ -14,3 +14,5 @@ export mock_cards: Card[] = [
   new Creature('Apprentice Sorcerer', '', '', new Cost(2, [[Mana.Blue, 1]]), 1, 1),
   new Creature('Apprentice Sorcerer', '', '', new Cost(2, [[Mana.Blue, 1]]), 1, 1),
 ];
+
+export function getCards(): Card[] { return mock_cards; }

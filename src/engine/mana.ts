@@ -6,15 +6,13 @@ export enum Mana {
   Green
 }
 
-namespace Mana {
-  export function match(name: string): Mana {
-    switch(name) {
-      case "black": return Black;
-      case "white": return White;
-      case "blue": return Blue;
-      case "red": return Red;
-      case "green": return Green;
-      default: throw new TypeError("Mana type <"+name+"> not existent.");
-    }
+export function match(name: string): Mana {
+  switch(name) {
+    case "black": return Mana.Black;
+    case "white": return Mana.White;
+    case "blue": return Mana.Blue;
+    case "red": return Mana.Red;
+    case "green": return Mana.Green;
+    default: throw new TypeError("Mana type <"+name+"> not existent.");
   }
 }
